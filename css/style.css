@@ -5,6 +5,7 @@
 
 header{
     border-top: solid 40px #af2024;
+    border-bottom: solid 33px #3f0002;
     height: 819px;
 }
 
@@ -28,6 +29,10 @@ header{
 
 .logo{
     margin-top: 19px;
+}
+
+ul{
+   list-style: none;
 }
 
 .soc{
@@ -110,4 +115,8 @@ i.fa-twitter {
 
 .video_text_content{
     font-weight: 400;
+}
+
+footer{
+    background-color: black;
 }
