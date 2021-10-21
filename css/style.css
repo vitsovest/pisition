@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-top: solid 40px #af2024;
+    height: 819px;
+}
+
+.container{
+    max-width: 984px;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.bg{
+    background-image: url("../img/bg_pizza.png");
+    height: 819px;
+    max-width: 1500px;
+    width: 100%;
+    background-size: cover;
+}
+
+.logo{
+    margin-top: 19px;
+}
+
+.soc{
+    position: fixed;
+    right: 0;
+    margin-top: 362px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+i{
+    color: white;
+    background-color: #98161b;
+    width: 50px;
+    height: 40px;
+    line-height: 50px;
+    font-size: 33px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+i.fa-twitter {
+    background-color: #af2024;
+    font-size: 27px;
+}
+
+.video{
+    max-width: 710px;
+    width: 100%;
+    position: relative;
+    top: -680px;
+    background-color: white;
+    padding-bottom: 127px;
+}
+
+.video_name{
+    background-color: #98161b;
+    height: 53px;
+    color: white;
+    font-size: 20px;
+    padding-left: 18px;
+    padding-top: 27px;
+    align-items: center;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
+.video_frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 567px;
+    width: 100%;
+    height: 347px;
+    background-color: #e7e7e7;
+}
+
+.fa-play{
+    background-color: transparent;
+    color: #98161b;
+}
+
+.video_text_head{
+    display: flex;
+    max-width: 567px;
+    color: #98161b;
+    font-size: 13px;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    margin-top: 29px;
+    line-height: 18px;
+}
+
+.cat_date{
+    color: #7d7d7d;
+}
+
+.video_text_content{
+    font-weight: 400;
+}
