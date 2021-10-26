@@ -10,8 +10,8 @@ header{
 }
 
 .container{
-    max-width: 984px;
     margin: auto;
+    width: 984px;
 }
 
 .d-flex{
@@ -22,8 +22,6 @@ header{
 .bg{
     background-image: url("../img/bg_pizza.png");
     height: 819px;
-    max-width: 1500px;
-    width: 100%;
     background-size: cover;
 }
 
@@ -114,9 +112,10 @@ i.fa-twitter {
 }
 
 .video_text_content{
-    font-weight: 400;
+    font-weight: 40;
 }
 
 footer{
     background-color: black;
+    height: 100px;
 }
